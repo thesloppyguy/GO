@@ -15,6 +15,19 @@ Runs the go file
 ```Shell
     go run <name>
 ```
+## **Packages**
+```GO
+	import "name"
+	// or
+	import(
+		<var> "name"
+		<var> "namespace/function"
+		// set var as . to access all the functions
+	)
+
+```
+
+
 
 ## **Variables**
 
